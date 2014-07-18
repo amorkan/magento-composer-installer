@@ -1,0 +1,30 @@
+{
+    "extra": {
+        "magento-deploystrategy": "copy",
+        "magento-force": true,
+        "magento-root-dir": "./"
+    },
+    "repositories": [
+        {
+            "packagist": false
+        },
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "require": {
+        "connect20/fishpig_wordpress_integration": "*",
+        "connect20/lesti_fpc": "*",
+        "connect20/locale_mage_community_de_de": "*",
+        "connect20/locale_mage_community_es_es": "*",
+        "connect20/locale_mage_community_fr_fr": "*",
+        "connect20/locale_mage_community_it_it": "*",
+        "connect20/pulsestorm_launcher": "*",
+        "connect20/tbt_enhancedgrid": "*",
+        "fooman/googleanalyticsplus": "*",
+        "magento-hackathon/magento-composer-installer": "*",
+        "magento/core": "*",
+        "zookal/magento-mock": "*"
+    }
+}
